@@ -1,0 +1,10 @@
+name = "design-patterns-in-lean4"
+version = "0.1.0"
+defaultTargets = ["design-patterns-in-lean4"]
+
+[[lean_lib]]
+name = "DesignPatternsInLean4"
+
+[[lean_exe]]
+name = "design-patterns-in-lean4"
+root = "Main"
