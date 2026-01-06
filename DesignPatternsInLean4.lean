@@ -1,3 +1,4 @@
 -- This module serves as the root of the `DesignPatternsInLean4` library.
 -- Import modules here that should be built as part of the library.
 import DesignPatternsInLean4.Basic
+import DesignPatternsInLean4.Strategy
