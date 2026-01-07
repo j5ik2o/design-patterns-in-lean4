@@ -2,3 +2,4 @@
 -- Import modules here that should be built as part of the library.
 import DesignPatternsInLean4.Basic
 import DesignPatternsInLean4.Strategy
+import DesignPatternsInLean4.Composite

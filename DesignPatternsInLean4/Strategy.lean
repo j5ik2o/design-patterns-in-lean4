@@ -236,7 +236,7 @@ def playGame {σ₁ σ₂ : Type} [Strategy σ₁] [Strategy σ₂]
 end Strategy
 
 -- デモ用の実行例
-def demo : IO Unit := do
+def strategyDemo : IO Unit := do
   -- WinningStrategy vs ProbeStrategy
   let player1 : Strategy.Player Strategy.WinningStrategy := {
     name := "太郎"
